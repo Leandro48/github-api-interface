@@ -53,6 +53,14 @@ const Profile = () => {
             <h4>Repos</h4>
             <span> {githubState.user.public_repos}</span>
           </div>
+          <div>
+            <h4>Projects</h4>
+            <span> {githubState.user.has_projects}</span>
+          </div>
+          <div>
+            <h4>Downloads</h4>
+            <span> {githubState.user.has_downloads}</span>
+          </div>
         </S.WrapperStatusCount>
       </S.WrapperInfoUser>
     </S.Wrapper>
